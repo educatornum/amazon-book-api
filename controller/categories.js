@@ -3,6 +3,7 @@ exports.getCategories = (req,res,next) => {
         method: "GET",
         sucees: true,
         message:"All categories", 
+        userID: req.userID
     })
 }
 exports.oneGetCategory = (req,res,next) => {
